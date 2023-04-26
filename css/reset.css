@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* reset */
+html, body, p, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, tr, td, form, fieldset, 
+input, button, label, legend, textarea, select, #visual, footer, main, aside, nav, section, article, 
+figure, a, span, strong, em, b, i, address {
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box;
+}
+html {
+    font-size:0.625em;
+    color:#131414;
+}
+body, h1, h2, h3, h4, h5, h6, button {
+    font-family:'Noto Sans KR', sans-serif;
+    font-weight:500;
+    line-height:1;
+}
+ul, ol, li {list-style:none;} 
+a {
+    text-decoration:none;
+    color:#131414;
+}
+img, fieldset {
+    border:none;
+    vertical-align:middle;
+}
+strong, em, b, i, address, cite {
+    font-style:normal;
+}
+table {border-collapse:collapse;}
+button {
+    border:none;
+    background-color:transparent;
+    cursor:pointer;
+}
